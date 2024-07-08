@@ -1,10 +1,11 @@
+import profilePic from "./assets/robot.jpg"
 
 function Card() {
     return(
         <div className="card">
-            <img></img>
-            <h2>Eizad Hamdan</h2>
-            <p>A Computer Engineering undergraduate.</p>
+            <img className="card-image" src={profilePic} alt="Profile Picture"></img>
+            <h2 className="card-title">Eizad Hamdan</h2>
+            <p className="card-text">A Computer Engineering undergraduate.</p>
         </div>
     );
 }
