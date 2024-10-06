@@ -2,7 +2,7 @@ import { Image, View, Text, FlatList, Pressable } from "react-native";
 import images from "@/constants/affirmation-images";
 import {
   GalleryPreviewData,
-  Product,
+  // Product,
 } from "@/constants/models/AffirmationCategory";
 import { Link } from "expo-router";
 

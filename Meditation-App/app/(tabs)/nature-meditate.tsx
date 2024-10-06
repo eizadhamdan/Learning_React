@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { StatusBar } from "expo-status-bar";
-import { router } from "expo-router";
+import { useRouter } from "expo-router";
 import React from "react";
 import {
   FlatList,
@@ -17,6 +17,7 @@ import { MEDITATION_DATA, MeditationType } from "@/constants/MeditationData";
 import AppGradient from "@/components/AppGradient";
 
 const Page = () => {
+  const router = useRouter();
   return (
     <View className="flex-1">
       <AppGradient
